@@ -1,0 +1,124 @@
+/* pallette: https://coolors.co/11151c-212d40-485265-818fa0-9599a5 */
+
+.nav-section {
+    padding-top: 75px;
+    max-width: 1024px;
+}
+
+.hero {
+    color: white;
+    min-height: 400px;
+    background-image: url('../images/mountains.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar-main {
+    background-color: white;
+}
+
+#navbar-main a {
+    color: #212d40;
+}
+
+.navbar-mobile {
+    color: #212d40;
+}
+
+.navbar-mobile a {
+    color: #212d40;
+}
+
+.dark-text {
+    color: #212d40;
+}
+
+.bg-sea-green {
+    background-color: #59bfbd;
+}
+
+.bg-dark-blue {
+    background-color: #212d40;
+}
+
+.image-size200 {
+    height: 300px;
+    max-width: 300px;
+}
+
+.question {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.answer {
+    margin-left: 25px;
+}
+
+.info-section {
+    color: #212d40;
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+    opacity: .9;
+}
+
+.info-section-parallax {
+    height: 3em;
+
+    background-image: url('../images/hero3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    color: white;
+    background-color: #212d40;
+}
+
+.spwidget-button-wrapper {
+    text-align: center
+}
+
+.spwidget-button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff !important;
+    background: #de6a26;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.spwidget-button:hover {
+    background: #d15913
+}
+
+.spwidget-button:active {
+    color: rgba(255, 255, 255, .75) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15) inset
+}
+
+.parallax {
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero1 {
+    background-image: url("../images/mountains.jpg");
+}
+.hero2 {
+    background-image: url("../images/starry-sky.jpg");
+}
