@@ -10,7 +10,7 @@
 .hero {
     color: white;
     min-height: 400px;
-    background-image: url('../images/fire.jpg');
+    background-image: url('../images/black-leather.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@
 }
 
 .hero1 {
-    background-image: url("../images/fire.jpg");
+    background-image: url("../images/black-leather.jpg");
 }
 .hero2 {
     background-image: url("../images/face.jpg");
