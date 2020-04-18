@@ -10,7 +10,7 @@
 .hero {
     color: white;
     min-height: 400px;
-    background-image: url('../images/black-leather.jpg');
+    background-image: url('../images/black-leather-medium.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,10 +131,10 @@
 }
 
 .hero1 {
-    background-image: url("../images/black-leather.jpg");
+    background-image: url("../images/black-leather-medium.jpg");
 }
 .hero2 {
-    background-image: url("../images/face.jpg");
+    background-image: url("../images/sexy-glitter-face-medium.jpg");
 }
 
 .follow-icon {
