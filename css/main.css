@@ -1,5 +1,8 @@
 /* pallette: https://coolors.co/11151c-212d40-485265-818fa0-9599a5 */
 
+.page-body {
+    font-family: 'Muli', sans-serif;
+}
 .nav-section {
     padding-top: 75px;
     padding-bottom: 25px;
@@ -9,14 +12,18 @@
 .hero {
     color: white;
     min-height: 400px;
-    background-image: url('../images/mountains.jpg');
+    background-image: url('../images/fire.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Copse', serif;
 }
 
 #navbar-main {
     background-color: white;
+    font-family: 'Copse', serif;
 }
 
 #navbar-main a {
@@ -25,6 +32,7 @@
 
 .navbar-mobile {
     color: #212d40;
+    font-family: 'Copse', serif;
 }
 
 .navbar-mobile a {
@@ -41,6 +49,10 @@
 
 .bg-dark-blue {
     background-color: #212d40;
+}
+
+.bg-dark2 {
+    background-color: #443737;
 }
 
 .image-size200 {
@@ -63,6 +75,7 @@
     padding: 1em;
     text-align: center;
     opacity: .9;
+    font-family: 'Copse', serif;
 }
 
 .info-section-parallax {
@@ -118,10 +131,10 @@
 }
 
 .hero1 {
-    background-image: url("../images/mountains.jpg");
+    background-image: url("../images/fire.jpg");
 }
 .hero2 {
-    background-image: url("../images/starry-sky.jpg");
+    background-image: url("../images/face.jpg");
 }
 
 .follow-icon {
