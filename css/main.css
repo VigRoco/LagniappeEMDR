@@ -7,11 +7,20 @@
     max-width: 1024px;
     padding-top: 60px;
 }
+.callout-section {
+    margin: 20px 0px;
+    padding: 10px;
+    /*background-color: #CBC5D6;*/
+}
+
+.logo {
+    filter: drop-shadow(1px 1px 1px white);
+}
 
 .hero {
     color: white;
     min-height: 400px;
-    background-image: url('../images/black-leather-medium.jpg');
+    background-image: url('../images/abstract-marble-green.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
