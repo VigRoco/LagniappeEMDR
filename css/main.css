@@ -7,18 +7,34 @@
     max-width: 1024px;
     padding-top: 60px;
 }
+.callout-section {
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.logo {
+    filter: drop-shadow(1px 1px 1px white);
+}
 
 .hero {
     color: white;
-    min-height: 400px;
-    background-image: url('../images/black-leather-medium.jpg');
+    min-height: 600px;
+    background-image: url('../images/abstract-marble-green.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family: 'Copse', serif;
-    padding-top: 75px;
+    padding: 0px;
+}
+
+.hero-title {
+    color: #212d40;
+    padding: .5em;
+    text-align: center;
+    opacity: .9;
+    font-family: 'Copse', serif;
+    font-weight: lighter;
 }
 
 #navbar-main {
@@ -71,7 +87,6 @@
 
 .info-section {
     color: #212d40;
-    background-color: white;
     padding: .5em;
     text-align: center;
     opacity: .9;
@@ -141,10 +156,10 @@
 }
 
 .hero1 {
-    background-image: url("../images/black-leather-medium.jpg");
+    background-image: url("../images/abstract-marble-green.jpg");
 }
 .hero2 {
-    background-image: url("../images/sexy-glitter-face-medium.jpg");
+    background-image: url("../images/abstract-marble-green.jpg");
 }
 
 .follow-icon {
