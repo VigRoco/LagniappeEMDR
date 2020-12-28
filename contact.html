@@ -13,6 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Copse&&family=Muli:wght@200&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/9a4ab56017.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function submitContact() {
+            alert('submit');
+        }
+    </script>
 </head>
 
 <body id="page-top" class="page-body bg-white">
@@ -118,14 +124,14 @@
 
                     <!--Grid column-->
                     <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form">
+                        <form id="contact-form" name="contact-form" action="javascript:submitContact();">
                             <!--Grid row-->
                             <div class="row">
 
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
+                                        <input type="text" id="name" name="name" class="form-control" maxlength="100" required aria-required="true">
                                         <label for="name" class="">Your name</label>
                                     </div>
                                 </div>
@@ -134,7 +140,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control">
+                                        <input type="text" id="email" name="email" class="form-control" maxlength="100" required aria-required="true">
                                         <label for="email" class="">Your email</label>
                                     </div>
                                 </div>
@@ -147,7 +153,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <input type="text" id="subject" name="subject" max="255" class="form-control" required aria-required="true">
                                         <label for="subject" class="">Subject</label>
                                     </div>
                                 </div>
@@ -161,21 +167,14 @@
                                 <div class="col-md-12">
 
                                     <div class="md-form">
-                                        <textarea type="text" id="message" name="message" rows="2"
-                                            class="form-control md-textarea"></textarea>
+                                        <textarea type="text" id="message" name="message" rows="3" maxlength="500"
+                                            class="form-control md-textarea" required  aria-required="true"></textarea>
                                         <label for="message">Your message</label>
                                     </div>
-
+                                    <input class="btn btn-primary" type="submit" value="Send">
                                 </div>
                             </div>
-                            <!--Grid row-->
-
                         </form>
-
-                        <div class="text-center text-md-left text-white">
-                            <a class="btn btn-primary"
-                                onclick="document.getElementById('contact-form').submit();">Send</a>
-                        </div>
                         <div class="status"></div>
                     </div>
                     <!--Grid column-->
