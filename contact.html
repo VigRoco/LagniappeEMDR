@@ -13,29 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Copse&&family=Muli:wght@200&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/9a4ab56017.js" crossorigin="anonymous"></script>
-
-    <script type="text/javascript">
-        const API = " https://lagniappe-emdr-8pbwjxbl.uc.gateway.dev"
-        const API_KEY = "AIzaSyCS77bDhfmp7aYMn1h-Isqdesu7c-tWgVU"
-
-        async function submitContact() {
-            const name = document.getElementById("name")
-            const email = document.getElementById("email")
-            const subject = document.getElementById("subject")
-            const message = document.getElementById("message")
-
-            const res = await fetch(`${API}/contact?key=${API_KEY}`, {
-                body: {
-                    name: name,
-                    email: email,
-                    subject: subject,
-                    message: message
-                },
-                method: "POST"
-            })
-            console.log(res)
-        }
-    </script>
 </head>
 
 <body id="page-top" class="page-body bg-white">
@@ -70,6 +47,7 @@
                             <a class="dropdown-item" href="index.html#bipolar">Bipolar Disorder</a>
                             <a class="dropdown-item" href="index.html#online-therapy">Online Therapy</a>
                             <a class="dropdown-item" href="index.html#first-responders">First Responders</a>
+                            <a class="dropdown-item" href="contact.html">EMDR Consultation</a>
                         </div>
                     </div>
                 </li>
@@ -101,6 +79,7 @@
                         <a class="dropdown-item" href="index.html#bipolar">Bipolar Disorder</a>
                         <a class="dropdown-item" href="index.html#online-therapy">Online Therapy</a>
                         <a class="dropdown-item" href="index.html#first-responders">First Responders</a>
+                        <a class="dropdown-item" href="contact.html">EMDR Consultation</a>
                     </div>
                 </div>
             </li>
@@ -120,7 +99,7 @@
         </ul>
     </nav>
 
-    <div id="contact" class="container-fluid nav-section mb-5">
+    <div id="contact" class="container-fluid nav-section mb-5 my-5">
         <h4 class="info-section">EMDR consultation</h4>
         <div class="container-fluid d-md-flex justify-content-center">
             <!--Section: Contact v.2-->
@@ -135,86 +114,10 @@
                         <li class="list-group-item border-0">Group consultation: $25</li>
                         <li class="list-group-item border-0">Individual consultation: $50</li>
                     </ul>
-                </div>
 
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="javascript:submitContact();">
-                            <!--Grid row-->
-                            <div class="row">
-
-                                <!--Grid column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control" maxlength="100" required aria-required="true">
-                                        <label for="name" class="">Your name</label>
-                                    </div>
-                                </div>
-                                <!--Grid column-->
-
-                                <!--Grid column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control" maxlength="100" required aria-required="true">
-                                        <label for="email" class="">Your email</label>
-                                    </div>
-                                </div>
-                                <!--Grid column-->
-
-                            </div>
-                            <!--Grid row-->
-
-                            <!--Grid row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" max="255" class="form-control" required aria-required="true">
-                                        <label for="subject" class="">Subject</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid row-->
-
-                            <!--Grid row-->
-                            <div class="row">
-
-                                <!--Grid column-->
-                                <div class="col-md-12">
-
-                                    <div class="md-form">
-                                        <textarea type="text" id="message" name="message" rows="3" maxlength="500"
-                                            class="form-control md-textarea" required  aria-required="true"></textarea>
-                                        <label for="message">Your message</label>
-                                    </div>
-                                    <input class="btn btn-primary" type="submit" value="Send">
-                                </div>
-                            </div>
-                        </form>
-                        <div class="status"></div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-3 text-center">
-                        <ul class="list-unstyled mb-0">
-                            <li><i class="fas fa-map-marker-alt mr-2"></i>
-                                <p>Seattle, WA</p>
-                            </li>
-
-                            <li><i class="fas fa-mobile-alt mr-2"></i>
-                                <p>(206) 929-4716</p>
-                            </li>
-
-                            <li><i class="fas fa-at mr-2"></i>
-                                <p>lwood@lagniappeemdr.com</p>
-                            </li>
-                        </ul>
-                    </div>
+                    <h5 class="font-weight-bold"><a href="https://us2.list-manage.com/contact-form?u=da9988407c6e42b898dae1a17&form_id=025a7b84030c01ddca36c6fd19cd78b2">Contact for Consultation</a></h5>
                 </div>
             </section>
-            <!--Section: Contact v.2-->
         </div>
     </div>
 
